@@ -6,5 +6,4 @@ urlpatterns = [
     path('', views.post_list, name='post_listl'),
     path('post/new/', views.post_new, name='post_new'),
     path('post/<int:pk>/edit/', views.post_edit, name='post_edit'),
-    path('oauth_redirect/',views.oauth_redirect, name='oauth_redirect'),
 ]
